@@ -1,3 +1,4 @@
-<resources>
-    <string name="app_name">VkNewsClient</string>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name" translatable="false">VkNewsClient</string>
+    <string name="post_text" translatable="false">lorem ipsum dolor sit amet consectetur adipiscing elit.</string>
 </resources>
