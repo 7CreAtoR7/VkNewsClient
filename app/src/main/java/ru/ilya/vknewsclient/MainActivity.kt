@@ -9,6 +9,8 @@ import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.padding
 import androidx.compose.material.MaterialTheme
 import androidx.compose.ui.Modifier
+import androidx.compose.ui.tooling.preview.Preview
+import ru.ilya.vknewsclient.ui.theme.MainScreen
 import androidx.compose.ui.unit.dp
 import ru.ilya.vknewsclient.ui.theme.PostCard
 import ru.ilya.vknewsclient.ui.theme.VkNewsClientTheme
@@ -27,6 +29,7 @@ class MainActivity : ComponentActivity() {
                 ) {
                     PostCard()
                 }
+                MainScreen()
             }
         }
     }
